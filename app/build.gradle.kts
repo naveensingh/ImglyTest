@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("ly.img.android.sdk").version("10.7.2")
+    id("ly.img.android.sdk").version("10.7.3")
 }
 
 android {
