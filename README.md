@@ -1,5 +1,5 @@
 # ImglyTest
-A sample project to reproduce an R8 issue with the img.ly library.
+A sample project to reproduce an R8 issue with the img.ly gradle plugin.
 
 <details>
 <summary>
@@ -341,7 +341,7 @@ BUILD FAILED in 8s
 
 ### How to fix:
 
-This seems to be happening because the Img.ly library uses `whenTaskAdded` which is no longer supported in AGP 8.1.0. The following links have more info on how to address this:
+This seems to be happening because the Img.ly Gradle plugin uses `whenTaskAdded` which is no longer supported in AGP 8.1.0. The following links have more info on how to address this:
 
 1. https://issuetracker.google.com/issues/277166577
 2. https://issuetracker.google.com/issues/293679167
